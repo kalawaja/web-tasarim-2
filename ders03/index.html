@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <h6>Ad Soyad</h6>
+        <input type="text" name="adsoyad" id="adsoyad" required>
+        <h6>Mail Adresi</h6>
+        <input type="email" name="mail" id="mail" required>
+        <h6>Web Sitesi</h6>
+        <input type="url" name="web" id="web">
+        <h6>Telefon Numarası</h6>
+        <input type="tel" name="tel" id="tel" required>
+        <h6>Şifre</h6>
+        <input type="password" name="sifre" id="sifre">
+        <h6>Renk</h6>
+        <input type="color" name="renk" id="renk">
+        <h6>Aralık</h6>
+        <input type="range" name="aralik" id="aralik">
+        <h6>Cinsiyet</h6>
+        <input type="radio" name="" id="" value=""> Erkek
+        <input type="radio" name="" id="" value=""> Kadın
+        <input type="radio" name="" id="" value="" checked> Yok
+        <h6>Hobiler</h6>
+        <input type="checkbox" name="hobiler[]" value="Seyahat" id=""> Seyahat Etmek
+        <input type="checkbox" name="hobiler[]" value="Kitap" id="" checked> Kitap Okumak
+        <input type="checkbox" name="hobiler[]" value="Spor" id=""> Spor Yapmak
+        <h6>Şehir</h6>
+        <select name="" id="">
+            <option value="34">İstanbul</option>
+            <option value="06">Ankara</option>
+            <option value="35">İzmir</option>
+            <option value="10">Balıkesir</option>
+            <option value="23" selected>Elazığ</option>
+        </select>
+        <h6>Mesaj</h6>
+        <textarea name="" id="" cols="30" rows="10" maxlength="250"></textarea>
+        <h6>Dosya</h6>
+        <input type="file" name="dosya[]" id="" accept=".jpg, .png, .gif, .jpeg" multiple>
+        <br><br><br>
+        <input type="hidden" value="">
+        <input type="submit" value="Gönder">
+        <input type="reset" value="Temizle">
+
+    </form>
+</body>
+</html>
