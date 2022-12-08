@@ -21,10 +21,10 @@ Bu eğitimi başarı ile bitirenler; web ortamında etkileşimli programlar haz�
 - [W3Schools](https://www.w3schools.com/)
 - [Mehmet Selçuk Batal - HTML ve CSS ile A'dan Z'ye Web Tasarımı](https://www.youtube.com/playlist?list=PLQlzUjV4jUuRgSyZ0bWkmRuyi_WV3L8Ra)
 
-3. Kullanılacak Editör:
+4. Kullanılacak Editör:
 - VS Code
 
-4. VS Code Eklentileri:
+5. VS Code Eklentileri:
 - **Live Preview**
 
 > ### Giriş için Önemli Notlar
@@ -74,3 +74,44 @@ Bu eğitimi başarı ile bitirenler; web ortamında etkileşimli programlar haz�
 > width: calc(100vw-20px);
 > }
 > ```
+
+> 5. Responsive
+
+- @media query   
+
+|     min        |              max              |          device                      |
+|----------------|-------------------------------|--------------------------------------|
+| 320px          | 480px                         | Mobile devices                       |
+| 481px          | 575px                         | iPads, Tablets, vertical             |
+| 576px          | 768px                         | iPads, Tablets, landscape phones     |
+| 769px          | 991px                         | Small screens, laptops               |
+| 992px          | 1024px                        | Medium screens, desktops             |
+| 1025px         | 1200px                        | Desktops, large screens              |
+| 1201px         | and more                      | Extra large screens, TV              |
+
+```css
+
+@media (max-width: 1200px) {
+    /* ... */
+}
+
+@media (max-width: 1024px) {
+    /* ... */
+}
+
+@media (max-width: 991px) {
+    /* ... */
+}
+
+@media (max-width: 768px) {
+    /* ... */
+}
+
+@media (max-width: 575px) {
+    /* ... */
+}
+
+@media (max-width: 480px) {
+    /* ... */
+}
+```
