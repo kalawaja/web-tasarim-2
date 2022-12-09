@@ -1,0 +1,123 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    font-family: "Raleway";
+}
+
+header {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+}
+header h2 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+header span {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 7px;
+    font-size: .9rem;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+article {
+    width: 65%;
+    float: left;
+}
+
+aside {
+    width: 33%;
+    float: right;
+}
+
+.temizle {
+    clear: both;
+}
+
+.gonderi {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 5px #e1e1e1;
+    margin-bottom: 30px;
+}
+
+.gonderi img {
+    width: 100%;
+}
+
+.gicerik {
+    padding: 15px;
+}
+
+.gonderi h1 {
+    margin-top: 0px;
+}
+
+.gonderi h2 {
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+.gonderi h2 span {
+    color: #999;
+}
+
+.gonderi p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: .95rem;
+    line-height: 150%;   
+}
+
+.gonderi a {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 15px 8px;
+    font-size: .9rem;
+
+}
+
+footer {
+    background: #616161;
+    padding: 30px 15px 45px 15px;
+    color: #fff;
+}
+
+footer a.dugme {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 18px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+footer a.dugme:hover {
+    background: #ccc;
+    color: #000;
+}
+
+footer a.yasak {
+    background-color: #ccc;
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+footer p {
+    font-size: .9rem;
+}
+
+footer p a {
+    color: #fff;
+}
